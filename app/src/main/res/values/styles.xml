@@ -1,0 +1,328 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:radioButtonStyle">@style/MyRadioButton</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="Content">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="Edittext_Wrapper_Common" parent="Widget.Design.TextInputLayout">
+        <item name="errorEnabled">false</item>
+        <item name="errorTextAppearance">@style/ErrorText_Small</item>
+        <item name="hintEnabled">false</item>
+        <item name="hintTextAppearance">@style/HintLabelText_Small</item>
+        <item name="counterEnabled">false</item>
+        <item name="counterTextAppearance">@style/CounterText_Small</item>
+    </style>
+
+    <style name="Edittext_Common_Left">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:height">@dimen/height_edittext</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Primary_14">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Grey_Bold_14">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="Grey_Bold_16">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="White_16">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Dark_Grey_14">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#484d5e</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Fullscreen_DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+
+    <style name="ErrorText_Small" parent="TextAppearance.Design.Error">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="HintLabelText_Small">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#52677c</item>
+    </style>
+
+    <style name="CounterText_Small" parent="TextAppearance.Design.Counter">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--    New Style-->
+
+    <style name="Button_Common" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonTextBlue16" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonTextWhite14" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="ButtonTextBlue14" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="White_14">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <!--    Private Style -->
+    <style name="LoginBounderEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">26dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LoginIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LoginHorizontalLine">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:background">@color/color_hint_content</item>
+    </style>
+
+    <style name="LoginEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColorHint">@color/color_hint_content</item>
+        <item name="android:textCursorDrawable">@drawable/drawable_custom_cursor</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LoginVerticalLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_hint_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="DialogHeaderIcon">
+        <item name="android:layout_width">112dp</item>
+        <item name="android:layout_height">112dp</item>
+        <item name="android:padding">24dp</item>
+        <item name="android:layout_marginTop">36dp</item>
+        <item name="android:layout_marginBottom">26dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <style name="TextBlackBold16">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="TextGrey14">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="TextBlackSemiBold16">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="TextWhiteSemiBold16">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextGreyMedium16">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="EditTextBlackSemiBold16">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#232f3b</item>
+        <item name="android:textColorHint">#aa62778c</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextBlackSemiBold14">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="TextBlackSemiBold12">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="TextBlackSemiBold10">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+
+    <style name="TextGreyMedium14">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="TextGreyMedium12">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="TextGreyRegular10">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="TextGreyRegular12">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="TextDarkGreyRegular10">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="TextLightBlackRegular12">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="TextDarkGreyRegular12">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="MyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/ic_radio_button</item>
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+    <!--    New Style-->
+    <style name="TextWhiteRegular12">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="TextWhiteSemiBold12">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+#Mon Jul 03 14:45:28 ICT 2023
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\Hung-Desktop\\Downloads\\delfi-client-startkit-example-android-main\\delfi-client-startkit-example-android-main\\app\\build\\intermediates\\transforms\\dexMerger\\UAT\\debug\\1
+base.1=C\:\\Users\\Hung-Desktop\\Downloads\\delfi-client-startkit-example-android-main\\delfi-client-startkit-example-android-main\\app\\build\\intermediates\\transforms\\dexMerger\\UAT\\debug\\1
+base.0=C\:\\Users\\Hung-Desktop\\Downloads\\delfi-client-startkit-example-android-main\\delfi-client-startkit-example-android-main\\app\\build\\intermediates\\transforms\\dexMerger\\UAT\\debug\\0

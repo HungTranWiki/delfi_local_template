@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginRight="@dimen/padding"
+        android:background="@drawable/drawable_bg_dialog">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:textColor="@android:color/holo_red_light"
+            style="@style/Button_Common"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            android:orientation="horizontal"
+            android:layout_above="@+id/layoutButton">
+            <TextView
+                android:id="@+id/message"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thiết bị:"
+                style="@style/Dark_Grey_14"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/tvDeviceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Primary_14"
+                tools:text="70225555"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp">
+            <Button
+                android:id="@+id/buttonChange"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edittext"
+                style="@style/Primary_14"
+                android:background="@drawable/drawable_button_border_blue"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="Thay đổi"/>
+
+            <Button
+                android:id="@+id/buttonPrint"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edittext"
+                style="@style/Button_Common"
+                android:background="@drawable/bg_blue_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:text="In"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

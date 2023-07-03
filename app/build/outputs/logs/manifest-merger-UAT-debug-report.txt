@@ -1,0 +1,508 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\8622c465b42880ed0fe0be0abfc23655\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.dagger:dagger-android-support:2.23.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\acc1fa06b39a7d28c7e79d5247d06d85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\9ce76a2f33601e9c824324df582c32cf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ef70683c7e9a5ed47988bd04735e25a7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\093bc3e9914adc14ceae331a584ea3f6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f19842351881448899e850b20e045c84\AndroidManifest.xml:17:1-28:12
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\d36e3f2b0430e1bdc9e7f4936d0c512a\AndroidManifest.xml:2:1-7:12
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:17:1-32:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\b0714426ab7d7a34df93a3cd1a695af4\AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4d5fcdc22c1210dff8ae1bb5f3c9736b\AndroidManifest.xml:15:1-21:12
+MERGED from [com.google.dagger:dagger-android:2.23.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\1bc42cc013882d7ef8d9eeb8c546584e\AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.7] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a502af95918602220896862e9d04b35c\AndroidManifest.xml:2:1-11:12
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:2:1-77:12
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\3415e15081c9c3f1843fd39da9c8d8d3\AndroidManifest.xml:2:1-10:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f04b78d3d6abe50526c83823c064c02e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\254e073e32e15f482c192322ec3268f0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\0b713030a97f30a914c6c15ec8515a7c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4707bbad8bce97b0af98f9d16ad9ec7f\AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ff62bff97c0ae4c6cffd2c26705522be\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bf728fc44261045c4947ea7642bdfea2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\e831d6f9d6d39428f38b07ea0e3b084c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\c076be8cd431b08d56086f7f4142742d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\2f9ff28c972e4fa6cfa0942ef6cc8efc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a4e0401924093506ffbda4b6e91b88a0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bd5738d4f3b9a11e2e3cf1d242d7092f\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f25402d4902e91ecd4beb217518959c0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+	package
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:1-86:12
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:5:5-73:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\9ce76a2f33601e9c824324df582c32cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\9ce76a2f33601e9c824324df582c32cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ef70683c7e9a5ed47988bd04735e25a7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ef70683c7e9a5ed47988bd04735e25a7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\093bc3e9914adc14ceae331a584ea3f6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\093bc3e9914adc14ceae331a584ea3f6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f19842351881448899e850b20e045c84\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f19842351881448899e850b20e045c84\AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:24:5-30:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:24:5-30:19
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:19:5-75:19
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:19:5-75:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\254e073e32e15f482c192322ec3268f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\254e073e32e15f482c192322ec3268f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\0b713030a97f30a914c6c15ec8515a7c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\0b713030a97f30a914c6c15ec8515a7c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4707bbad8bce97b0af98f9d16ad9ec7f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4707bbad8bce97b0af98f9d16ad9ec7f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bf728fc44261045c4947ea7642bdfea2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bf728fc44261045c4947ea7642bdfea2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\e831d6f9d6d39428f38b07ea0e3b084c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\e831d6f9d6d39428f38b07ea0e3b084c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\c076be8cd431b08d56086f7f4142742d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\c076be8cd431b08d56086f7f4142742d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\2f9ff28c972e4fa6cfa0942ef6cc8efc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\2f9ff28c972e4fa6cfa0942ef6cc8efc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a4e0401924093506ffbda4b6e91b88a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a4e0401924093506ffbda4b6e91b88a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bd5738d4f3b9a11e2e3cf1d242d7092f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bd5738d4f3b9a11e2e3cf1d242d7092f\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:9:9-47
+	android:roundIcon
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:11:9-54
+	android:largeHeap
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:10:9-33
+	android:icon
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:13:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:14:9-44
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:6:9-59
+activity#com.delfi.vn.template.ui.splashscreen.SplashScreenActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:15:9-22:20
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:16:13-86
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.delfi.vn.template.ui.developing.NextTimeActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:24:13-80
+activity#com.delfi.vn.template.ui.login.LoginActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:27:13-72
+activity#com.delfi.vn.template.ui.main.MainActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:29:9-31:61
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:30:13-70
+activity#com.delfi.vn.template.ui.main.submenu.SubMainMenuActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:32:9-35:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:35:13-49
+	android:launchMode
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:33:13-85
+activity#com.delfi.vn.template.ui.settings.appid.AppIDSettingActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:36:9-38:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:37:13-88
+activity#com.delfi.vn.template.ui.settings.printip.PrinterIPSettingActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:40:13-94
+activity#com.delfi.vn.template.ui.settings.ExMainSettingActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:42:9-44:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:43:13-83
+activity#com.delfi.vn.template.ui.scanqr.ScanQRActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:45:9-47:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:46:13-74
+activity#com.delfi.vn.template.ui.menu11.input.Menu11InputActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:48:9-50:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:49:13-85
+activity#com.delfi.vn.template.ui.menu11.detail.Menu11DetailActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:52:13-87
+activity#com.delfi.vn.template.ui.menu11.review.Menu11ReviewActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:54:9-56:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:56:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:55:13-87
+activity#com.delfi.vn.template.ui.settings.serverip.ServerIPSettingActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:57:9-59:52
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:58:13-73
+activity#com.delfi.vn.template.ui.menu21.Menu21InputActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:60:9-62:61
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:62:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:61:13-58
+activity#com.delfi.vn.template.ui.menu22.Menu22InputActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:63:9-65:61
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:64:13-58
+activity#com.delfi.vn.template.ui.settings.printbluetooth.PrinterSettingActivity
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:66:9-68:61
+	android:screenOrientation
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:67:13-78
+receiver#com.delfi.vn.template.services.api.NetworkStatusReceiver
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:70:9-72:38
+	android:enabled
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:72:13-35
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:71:13-84
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:75:5-68
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:75:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:76:5-74
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:76:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:77:5-80
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:12:5-80
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:77:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:78:5-66
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:13:5-66
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:78:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:79:5-81
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:14:5-81
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:79:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:80:5-79
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:15:5-79
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:80:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:81:5-67
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:16:5-67
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:81:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:82:5-75
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:82:22-72
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:83:5-82
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:83:22-79
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:84:5-83
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:17:5-83
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:17:5-83
+	android:name
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml:84:22-80
+uses-sdk
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\8622c465b42880ed0fe0be0abfc23655\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\8622c465b42880ed0fe0be0abfc23655\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.dagger:dagger-android-support:2.23.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\acc1fa06b39a7d28c7e79d5247d06d85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.23.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\acc1fa06b39a7d28c7e79d5247d06d85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\9ce76a2f33601e9c824324df582c32cf\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\9ce76a2f33601e9c824324df582c32cf\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ef70683c7e9a5ed47988bd04735e25a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ef70683c7e9a5ed47988bd04735e25a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\093bc3e9914adc14ceae331a584ea3f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\093bc3e9914adc14ceae331a584ea3f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f19842351881448899e850b20e045c84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f19842351881448899e850b20e045c84\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\d36e3f2b0430e1bdc9e7f4936d0c512a\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\d36e3f2b0430e1bdc9e7f4936d0c512a\AndroidManifest.xml:5:5-43
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\b0714426ab7d7a34df93a3cd1a695af4\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\b0714426ab7d7a34df93a3cd1a695af4\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4d5fcdc22c1210dff8ae1bb5f3c9736b\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4d5fcdc22c1210dff8ae1bb5f3c9736b\AndroidManifest.xml:19:5-43
+MERGED from [com.google.dagger:dagger-android:2.23.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\1bc42cc013882d7ef8d9eeb8c546584e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.23.2] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\1bc42cc013882d7ef8d9eeb8c546584e\AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.7] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a502af95918602220896862e9d04b35c\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.7] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a502af95918602220896862e9d04b35c\AndroidManifest.xml:7:5-9:41
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:7:5-9:41
+MERGED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\3415e15081c9c3f1843fd39da9c8d8d3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\3415e15081c9c3f1843fd39da9c8d8d3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f04b78d3d6abe50526c83823c064c02e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f04b78d3d6abe50526c83823c064c02e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\254e073e32e15f482c192322ec3268f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\254e073e32e15f482c192322ec3268f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\0b713030a97f30a914c6c15ec8515a7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\0b713030a97f30a914c6c15ec8515a7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4707bbad8bce97b0af98f9d16ad9ec7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4707bbad8bce97b0af98f9d16ad9ec7f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ff62bff97c0ae4c6cffd2c26705522be\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ff62bff97c0ae4c6cffd2c26705522be\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bf728fc44261045c4947ea7642bdfea2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bf728fc44261045c4947ea7642bdfea2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\e831d6f9d6d39428f38b07ea0e3b084c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\e831d6f9d6d39428f38b07ea0e3b084c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\c076be8cd431b08d56086f7f4142742d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\c076be8cd431b08d56086f7f4142742d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\2f9ff28c972e4fa6cfa0942ef6cc8efc\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\2f9ff28c972e4fa6cfa0942ef6cc8efc\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a4e0401924093506ffbda4b6e91b88a0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a4e0401924093506ffbda4b6e91b88a0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bd5738d4f3b9a11e2e3cf1d242d7092f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bd5738d4f3b9a11e2e3cf1d242d7092f\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f25402d4902e91ecd4beb217518959c0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f25402d4902e91ecd4beb217518959c0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\9ce76a2f33601e9c824324df582c32cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\9ce76a2f33601e9c824324df582c32cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\093bc3e9914adc14ceae331a584ea3f6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\093bc3e9914adc14ceae331a584ea3f6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f19842351881448899e850b20e045c84\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f19842351881448899e850b20e045c84\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\254e073e32e15f482c192322ec3268f0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\254e073e32e15f482c192322ec3268f0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\0b713030a97f30a914c6c15ec8515a7c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\0b713030a97f30a914c6c15ec8515a7c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4707bbad8bce97b0af98f9d16ad9ec7f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\4707bbad8bce97b0af98f9d16ad9ec7f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bf728fc44261045c4947ea7642bdfea2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bf728fc44261045c4947ea7642bdfea2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\e831d6f9d6d39428f38b07ea0e3b084c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\e831d6f9d6d39428f38b07ea0e3b084c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\c076be8cd431b08d56086f7f4142742d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\c076be8cd431b08d56086f7f4142742d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\2f9ff28c972e4fa6cfa0942ef6cc8efc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\2f9ff28c972e4fa6cfa0942ef6cc8efc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a4e0401924093506ffbda4b6e91b88a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\a4e0401924093506ffbda4b6e91b88a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bd5738d4f3b9a11e2e3cf1d242d7092f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\bd5738d4f3b9a11e2e3cf1d242d7092f\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\ba20add55a9fd9cd8b73d64c1ac3a766\AndroidManifest.xml:27:13-51
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:27:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\f27682581d26ce716b5987c63fe94a8c\AndroidManifest.xml:26:13-83
+uses-permission#android.permission.CAMERA
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:11:22-62
+activity#com.delfi.core.communication.resttransfer.CloudSettingActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:21:13-90
+activity#com.delfi.core.communication.resttransfer.CloudTestConnectionActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:24:13-97
+activity#com.delfi.core.communication.resttransfer.CloudTransferActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:27:13-91
+activity#com.delfi.core.communication.ftptransfer.FTPSettingsActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:29:9-31:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:30:13-88
+activity#com.delfi.core.communication.ftptransfer.FTPMessageActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:32:9-34:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:33:13-87
+activity#com.delfi.core.communication.ftptransfer.FTPConnectionTestActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:36:13-94
+activity#com.delfi.core.communication.ftptransfer.FTPTransferActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:38:9-40:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:39:13-88
+activity#com.delfi.core.communication.sftp.view.SFTPTransferActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:42:13-87
+activity#com.delfi.core.communication.sftp.view.SFTPConnectionTestActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:45:13-93
+activity#com.delfi.core.communication.ftps.FTPSTransferActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:48:13-82
+activity#com.delfi.core.communication.ftps.FTPSConnectionTestActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:50:9-52:52
+	android:screenOrientation
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:51:13-88
+provider#android.support.v4.content.FileProvider
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:54:9-62:20
+	android:grantUriPermissions
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:58:13-47
+	android:authorities
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:56:13-64
+	android:exported
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:55:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:59:13-61:58
+	android:resource
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:61:17-55
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:60:17-67
+activity#com.delfi.core.settings.activities.GeneralInfoActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:64:9-91
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:64:19-88
+activity#com.delfi.core.settings.activities.CommTypeInfoActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:65:9-92
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:65:19-89
+activity#com.delfi.core.settings.activities.ChangeLanguageActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:66:9-94
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:66:19-91
+activity#com.delfi.core.settings.activities.MainSettingActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:67:9-91
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:67:19-88
+activity#com.delfi.core.settings.activities.DelfiPassActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:68:9-89
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:68:19-86
+activity#com.delfi.core.settings.activities.CommSettingActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:69:9-91
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:69:19-88
+activity#com.delfi.core.settings.activities.DataSettingActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:70:9-91
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:70:19-88
+activity#com.delfi.core.settings.activities.KeyboardSettingActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:71:9-95
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:71:19-92
+activity#com.delfi.core.activation.ui.ClientActivationActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:72:9-90
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:72:19-87
+activity#com.delfi.core.activation.ui.OfflineActivationActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:73:9-91
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:73:19-88
+activity#com.delfi.core.zxing.ui.ScanQRActivity
+ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:74:9-75
+	android:name
+		ADDED from [:com.delfi.core-3.1.0:] C:\Users\Hung-Desktop\AndroidStudioProjects\MyApplication\caches\transforms-2\files-2.1\119b7d4574d3c923bfdc3aa365db9fe9\AndroidManifest.xml:74:19-72

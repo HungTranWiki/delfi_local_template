@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gif_wave_background"/>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnBack">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_square_delfi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/header_need_for_help"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_23sdp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    style="@style/Text_White_SemiBold_16"
+                    android:typeface="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/do_you_need_to_help"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp" />
+                <TextView
+                    style="@style/TextGreyMedium12"
+                    android:textColor="@color/bg_hesitate_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding"
+                    android:text="@string/do_not_hesitate"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/TextGreyMedium12"
+                            android:textSize="@dimen/_12sdp"
+                            android:typeface="normal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/email"
+                            android:textColor="@color/white" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/TextDarkGreyRegular10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="solutions@delfi.com.vn"
+                                android:textColor="@color/white"
+                                android:typeface="normal"
+                                tools:ignore="HardcodedText" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginTop="5dp"
+                                android:background="#acacac" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/TextGreyMedium12"
+                            android:textSize="@dimen/_12sdp"
+                            android:typeface="normal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="@string/phone"
+                            android:textColor="@color/white" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@mipmap/ic_vietnam"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="@dimen/padding_small"/>
+
+                                <TextView
+                                    style="@style/TextDarkGreyRegular10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ 84 913353038"
+                                    android:textColor="@color/white"
+                                    tools:ignore="HardcodedText" />
+                            </LinearLayout>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginTop="5dp"
+                                android:background="#acacac" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/TextGreyMedium12"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:paddingEnd="15dp"
+                            android:paddingRight="15dp"
+                            android:text="@string/opening_house"
+                            android:textColor="@color/white"
+                            android:typeface="normal"
+                            tools:ignore="RtlSymmetry" />
+
+                        <LinearLayout
+                            style="style"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    style="@style/Text_Bold_12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="08:30-16:30"
+                                    android:textColor="@color/white"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    style="@style/TextDarkGreyRegular10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:gravity="center_vertical"
+                                    android:singleLine="true"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="@string/mon_thu"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    style="@style/Text_Bold_12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="08:30-15:00"
+                                    android:textColor="@color/white"
+                                    android:typeface="normal"
+                                    tools:ignore="HardcodedText" />
+
+                                <TextView
+                                    style="@style/TextDarkGreyRegular10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:gravity="center_vertical"
+                                    android:singleLine="true"
+                                    android:text="@string/fri"
+                                    android:layout_gravity="center_vertical"
+                                    android:textColor="@color/white"
+                                    tools:ignore="HardcodedText" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBack"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:typeface="normal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edittext"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_corner_white_and_blue"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        style="@style/TextGreyMedium12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:text="© 2022 Delfi Technologies"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        android:typeface="normal"
+        tools:ignore="HardcodedText" />
+
+
+
+</RelativeLayout>
+
+

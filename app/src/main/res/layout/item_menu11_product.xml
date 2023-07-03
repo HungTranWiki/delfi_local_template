@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainProductItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_and_yellow"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding"
+    >
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/padding"
+        app:srcCompat="@drawable/ic_minus_circle_yellow" />
+
+
+    <LinearLayout
+        android:id="@+id/lnQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvProductName">
+
+        <TextView
+            android:id="@+id/tvQtyPicked"
+            style="@style/TextBlackSemiBold16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_5dp"
+            android:layout_marginStart="@dimen/padding_5dp"
+            android:textColor="@color/blue"
+            tools:text="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+        <TextView
+            android:id="@+id/tvQtyExpect"
+            style="@style/TextBlackSemiBold16"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="20" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnProduct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginStart="@dimen/padding_16dp"
+        android:layout_marginTop="@dimen/padding_child_add_2"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgIcon"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName">
+
+        <TextView
+            android:id="@+id/tvProductCodeTitle"
+            style="@style/TextDarkGreyRegular12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_code" />
+
+        <TextView
+            android:id="@+id/tvProductCode"
+            style="@style/TextBlackSemiBold12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_small"
+            tools:text="70222555" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvProductName"
+        style="@style/TextBlackSemiBold14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginStart="@dimen/padding"
+        app:layout_constraintLeft_toRightOf="@+id/imgIcon"
+        app:layout_constraintStart_toEndOf="@+id/imgIcon"
+        app:layout_constraintTop_toTopOf="@id/imgIcon"
+        app:layout_constraintRight_toLeftOf="@id/lnQuantity"
+        tools:text="Muc In Canon" />
+</android.support.constraint.ConstraintLayout>
+

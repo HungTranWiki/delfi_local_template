@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Hung-Desktop\\Downloads\\delfi-client-startkit-example-android-main\\delfi-client-startkit-example-android-main\\app\\build\\intermediates\\incremental\\mergeUATDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hung-Desktop\\AndroidStudioProjects\\MyApplication\\caches\\transforms-2\\files-2.1\\bd5738d4f3b9a11e2e3cf1d242d7092f\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hung-Desktop\\AndroidStudioProjects\\MyApplication\\caches\\transforms-2\\files-2.1\\9ce76a2f33601e9c824324df582c32cf\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

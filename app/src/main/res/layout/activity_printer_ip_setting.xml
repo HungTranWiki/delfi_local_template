@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_appid_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_header_layout" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            style="@style/Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/printer_ip" />
+
+        <EditText
+            android:id="@+id/edtPrintIP"
+            style="@style/Edittext_Common_Left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_edittext"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/drawable_edittext_common"
+            android:hint=""
+            android:minHeight="@dimen/height_edittext"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="127.0.0.1" />
+
+        <TextView
+            style="@style/Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/printer_port" />
+
+        <EditText
+            android:id="@+id/edtPort"
+            style="@style/Edittext_Common_Left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_edittext"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/drawable_edittext_common"
+            android:hint=""
+            android:minHeight="@dimen/height_edittext"
+            android:paddingTop="5dp"
+            android:inputType="number"
+            android:paddingBottom="5dp"
+            android:text="9100" />
+
+        <TextView
+            style="@style/Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Mật độ in" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rd300Dpi"
+                android:text="  300 DPI"
+                android:layout_width="wrap_content"
+                android:checked="true"
+                android:layout_marginRight="@dimen/padding"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rd600Dpi"
+                android:text="  600 DPI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/Button_Common"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_button"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_button_common"
+            android:text="@string/settings_save" />
+
+    </LinearLayout>
+
+</LinearLayout>

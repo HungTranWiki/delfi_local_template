@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <vector android:autoMirrored="true" android:height="18dp"
+            android:viewportHeight="18" android:viewportWidth="18"
+            android:width="18dp" xmlns:android="http://schemas.android.com/apk/res/android">
+            <path android:fillColor="@color/dark_grey" android:pathData="M6.975,11.925L9.9,9l-2.925,-2.925a0.742,0.742 0,0 1,1.05 -1.05l3.45,3.45a0.725,0.725 0,0 1,0 1.05l-3.45,3.45a0.742,0.742 0,0 1,-1.05 -1.05z"/>
+        </vector>
+    </item>
+    <item android:state_enabled="true" android:state_pressed="true">
+        <vector android:autoMirrored="true" android:height="18dp"
+            android:viewportHeight="18" android:viewportWidth="18"
+            android:width="18dp" xmlns:android="http://schemas.android.com/apk/res/android">
+            <path android:fillColor="#FF000000" android:pathData="M6.975,11.925L9.9,9l-2.925,-2.925a0.742,0.742 0,0 1,1.05 -1.05l3.45,3.45a0.725,0.725 0,0 1,0 1.05l-3.45,3.45a0.742,0.742 0,0 1,-1.05 -1.05z"/>
+        </vector>
+    </item>
+</selector>
+

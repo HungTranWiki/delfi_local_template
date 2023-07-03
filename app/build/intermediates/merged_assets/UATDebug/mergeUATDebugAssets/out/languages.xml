@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+    <!-- <language>
+        <code>en</code>
+        <name>English</name>
+        <icon>ico_flag_english</icon>
+    </language>
+   <language>
+        <code>da</code>
+        <name>Dansk</name>
+        <icon>ico_flag_dansk</icon>
+    </language>-->
+    <language>
+        <code>vi</code>
+        <name>Vietnamese</name>
+        <icon>ic_flag_vn</icon>
+    </language>
+</languages>

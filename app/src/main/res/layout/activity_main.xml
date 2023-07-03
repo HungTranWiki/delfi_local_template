@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layoutBar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextWhiteSemiBold16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/home_page"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+        <ImageView
+            android:id="@+id/imgOptionMenus"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_options"
+            android:visibility="visible"
+            android:layout_marginRight="@dimen/padding"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_label"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/padding"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_below="@+id/layoutBar"
+        style="@style/TextGreyMedium16"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/tvTitle"
+        android:layout_above="@+id/lnNotification"
+        android:id="@+id/recycleMainMenu"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_main_menu" />
+</RelativeLayout>

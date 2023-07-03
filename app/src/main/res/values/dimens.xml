@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_radius">4dp</dimen>
+    <dimen name="padding_child_add_2">2dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="padding_plus">24dp</dimen>
+    <dimen name="padding_extra">36dp</dimen>
+
+    <dimen name="height_bar">48dp</dimen>
+    <dimen name="height_edittext">60dp</dimen>
+    <dimen name="height_button">43dp</dimen>
+    <dimen name="icon_bottom_size_24">24dp</dimen>
+    <dimen name="margin_label_edit_record">5dp</dimen>
+
+    <dimen name="padding_1dp">1dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_24dp">24dp</dimen>
+    <dimen name="padding_40dp">40dp</dimen>
+    <dimen name="padding_50dp">50dp</dimen>
+
+    <dimen name="text_size_14sp">14sp</dimen>
+</resources>

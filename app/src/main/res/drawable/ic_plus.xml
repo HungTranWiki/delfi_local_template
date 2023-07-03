@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <shape android:shape="rectangle">
+      <padding
+          android:bottom="@dimen/padding_medium"
+          android:left="@dimen/padding_medium"
+          android:right="@dimen/padding_medium"
+          android:top="@dimen/padding_medium" />
+      <size
+          android:width="@dimen/padding_40dp"
+          android:height="@dimen/padding_40dp" />
+    </shape>
+  </item>
+  <item>
+    <vector
+        android:width="12dp"
+        android:height="12dp"
+        android:viewportHeight="12"
+        android:viewportWidth="12">
+      <path
+          android:fillColor="#20cbaf"
+          android:pathData="M1,5L11,5A1,1 0,0 1,12 6L12,6A1,1 0,0 1,11 7L1,7A1,1 0,0 1,0 6L0,6A1,1 0,0 1,1 5z" />
+      <path
+          android:fillColor="#20cbaf"
+          android:pathData="M7,1L7,11A1,1 0,0 1,6 12L6,12A1,1 0,0 1,5 11L5,1A1,1 0,0 1,6 0L6,0A1,1 0,0 1,7 1z" />
+    </vector>
+  </item>
+</layer-list>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainExpandReceipt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    android:paddingBottom="@dimen/padding">
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_minus_circle_yellow" />
+
+
+    <TextView
+    android:id="@+id/tvFromWarehouseTitle"
+        style="@style/TextDarkGreyRegular10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from_warehouse"
+        android:layout_marginLeft="@dimen/padding"
+        app:layout_constraintLeft_toRightOf="@id/imgIcon"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvFromWarehouse"
+        style="@style/TextBlackSemiBold12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_4dp"
+        app:layout_constraintLeft_toLeftOf="@id/tvFromWarehouseTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvFromWarehouseTitle"
+        tools:text="70222555" />
+
+    <TextView
+        android:id="@+id/tvToWarehouseTitle"
+        style="@style/TextDarkGreyRegular10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warehouse_code"
+        app:layout_constraintLeft_toRightOf="@id/tvFromWarehouseTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvFromWarehouseTitle" />
+
+    <TextView
+        android:id="@+id/tvToWarehouse"
+        style="@style/TextBlackSemiBold12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/tvToWarehouseTitle"
+        app:layout_constraintTop_toTopOf="@id/tvFromWarehouse"
+        tools:text="KG" />
+</android.support.constraint.ConstraintLayout>

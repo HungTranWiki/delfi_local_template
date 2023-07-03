@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnEditNoteBottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnOk"
+        style="@style/ButtonTextWhite14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/padding"
+        android:background="@drawable/bg_corner_blue"
+        android:text="@string/approve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/btnOk">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/lnHeaderPopup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/pale_grey_two"
+                android:clickable="true"
+                app:layout_constraintLeft_toLeftOf="parent">
+
+                <ImageButton
+                    android:id="@+id/buttonCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:contentDescription="@null"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:padding="@dimen/padding"
+                    app:srcCompat="@drawable/ic_menu_close_clear_cancel" />
+
+                <TextView
+                    android:id="@+id/tvProductName"
+                    style="@style/TextBlackSemiBold16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding"
+                    android:layout_marginVertical="@dimen/padding"
+                    android:text="@string/dien_giai"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/buttonCancel"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <com.delfi.vn.template.ui.customview.MySimpleStyleWrapper
+                android:id="@+id/wrapQuantity"
+                style="@style/Edittext_Wrapper_Common"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding"
+                app:colorFocused="@color/colorPrimaryDark"
+                app:colorUnfocused="@color/dark_grey"
+                app:label="@string/quantity"
+                android:layout_marginTop="@dimen/_8sdp">
+
+                <com.delfi.vn.template.ui.customview.SimpleEditedText
+                    android:id="@+id/edtQuantity"
+                    style="@style/Edittext_Styled_Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:drawableStart="@drawable/ic_minus"
+                    android:drawableLeft="@drawable/ic_minus"
+                    android:drawableEnd="@drawable/ic_plus"
+                    android:drawableRight="@drawable/ic_plus"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textAlignment="center" />
+            </com.delfi.vn.template.ui.customview.MySimpleStyleWrapper>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_product_input"
+                android:layout_margin="@dimen/padding"/>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="@dimen/padding"
+                android:layout_marginBottom="@dimen/padding"
+                android:padding="@dimen/_1sdp"
+                android:background="@drawable/bg_white_corner_border_grey">
+                <LinearLayout
+                    android:id="@+id/lnProductCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="@dimen/padding"
+                    android:paddingVertical="@dimen/_10sdp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
+                    <TextView
+                        style="@style/TextGreyRegular10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/product_code"
+                        />
+                    <TextView
+                        android:id="@+id/tvItemNo"
+                        style="@style/TextBlackSemiBold12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:text="@string/product_code"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lnScannedQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="@dimen/padding"
+                    android:paddingVertical="@dimen/_10sdp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/lnProductCode"
+                    android:background="@drawable/bg_white_border_top">
+                    <TextView
+                        style="@style/TextGreyRegular10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/scanned_quantity" />
+                    <TextView
+                        android:id="@+id/tvScannedQuantity"
+                        style="@style/TextBlackSemiBold12"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/scanned_quantity"
+                        android:layout_marginLeft="@dimen/_4sdp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnExpectedQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="@dimen/padding"
+                    android:paddingBottom="@dimen/_10sdp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/lnScannedQuantity">
+                    <TextView
+                        style="@style/TextGreyRegular10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_expected_quantity" />
+                    <TextView
+                        android:id="@+id/tvExpectedQuantity"
+                        style="@style/TextBlackSemiBold12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/scanned_quantity"
+                        android:layout_marginLeft="@dimen/_4sdp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="@dimen/padding"
+                    android:paddingVertical="@dimen/_10sdp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/lnExpectedQuantity"
+                    android:background="@drawable/bg_white_border_top">
+                    <TextView
+                        style="@style/TextGreyRegular10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unit" />
+                    <TextView
+                        android:id="@+id/tvUnit"
+                        style="@style/TextBlackSemiBold12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/unit"
+                        android:layout_marginLeft="@dimen/_4sdp"/>
+                </LinearLayout>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

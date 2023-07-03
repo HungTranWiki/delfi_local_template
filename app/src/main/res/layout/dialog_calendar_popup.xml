@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_corner_grey_top"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/lnCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/bg_corner_grey_top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Grey_Bold_14"
+            android:layout_marginTop="@dimen/padding_16dp"
+            android:layout_marginLeft="@dimen/padding_16dp"
+            android:layout_marginRight="@dimen/padding_16dp"
+            android:text="@string/search_from_date"/>
+
+        <com.delfi.vn.template.ui.customview.calendar.MyDatePicker
+            android:id="@+id/myDatePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_16dp"
+            android:layout_marginRight="@dimen/padding_16dp"/>
+
+        <com.delfi.vn.template.ui.customview.MySimpleStyleWrapper
+            android:id="@+id/orderCodeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Edittext_Wrapper_Common"
+            android:layout_marginTop="@dimen/padding_16dp"
+            android:layout_marginLeft="@dimen/padding_16dp"
+            android:layout_marginRight="@dimen/padding_16dp"
+            app:colorUnfocused="@color/dark_grey"
+            app:colorFocused="@color/colorPrimaryDark"
+            android:visibility="gone"
+            app:label="@string/order_id">
+
+            <com.delfi.vn.template.ui.customview.TextInputAutoCompleteTextView
+                android:id="@+id/edtProductAndLotCode"
+                style="@style/Edittext_Styled_Medium"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_50dp"
+                android:singleLine="true"
+                android:drawableRight="@drawable/ic_arrow_down_black"
+                android:drawableEnd="@drawable/ic_arrow_down_black" />
+        </com.delfi.vn.template.ui.customview.MySimpleStyleWrapper>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lnCalendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTextBlue14"
+            android:background="@drawable/bg_corner_border_blue"
+            android:layout_marginLeft="@dimen/padding_16dp"
+            android:layout_marginRight="@dimen/padding_small"
+            android:layout_marginStart="@dimen/padding_16dp"
+            android:layout_marginEnd="@dimen/padding_small"
+            android:layout_marginBottom="@dimen/padding_16dp"
+            android:layout_marginTop="@dimen/padding_16dp"
+            android:layout_gravity="center"
+            android:text="@string/cancel"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTextWhite14"
+            android:background="@drawable/bg_corner_blue"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_16dp"
+            android:layout_marginStart="@dimen/padding_small"
+            android:layout_marginEnd="@dimen/padding_16dp"
+            android:layout_marginBottom="@dimen/padding_16dp"
+            android:layout_marginTop="@dimen/padding_16dp"
+            android:layout_gravity="center"
+            android:text="@string/save"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

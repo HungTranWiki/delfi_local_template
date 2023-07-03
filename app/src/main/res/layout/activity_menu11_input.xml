@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constrainInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:background="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <com.delfi.vn.template.ui.customview.MySimpleStyleWrapper
+            android:id="@+id/wrapWarehouse"
+            style="@style/Edittext_Wrapper_Common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:colorFocused="@color/colorPrimary"
+            app:colorUnfocused="@color/dark_grey"
+            app:label="@string/warehouse_code"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.delfi.core.controls.styledinput.SimpleStyledAutoCompleteView
+                android:id="@+id/edtWarehouse"
+                style="@style/Edittext_Styled_Medium_Bold"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edittext"
+                android:drawableRight="@drawable/ic_arrow_down_black"
+                android:inputType="textVisiblePassword" />
+        </com.delfi.vn.template.ui.customview.MySimpleStyleWrapper>
+        <com.delfi.vn.template.ui.customview.MySimpleStyleWrapper
+            android:id="@+id/wrapReceipt"
+            style="@style/Edittext_Wrapper_Common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:colorFocused="@color/colorPrimary"
+            app:colorUnfocused="@color/dark_grey"
+            android:layout_marginTop="@dimen/_4sdp"
+            app:label="@string/receipt_id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/wrapWarehouse">
+            <com.delfi.vn.template.ui.customview.SimpleEditedText
+                android:id="@+id/edtReceiptCode"
+                style="@style/Edittext_Styled_Medium_Bold"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_edittext"
+                android:drawableRight="@drawable/ic_scan_barcode"
+                android:inputType="textVisiblePassword" />
+        </com.delfi.vn.template.ui.customview.MySimpleStyleWrapper>
+    </android.support.constraint.ConstraintLayout>
+    <TextView
+        style="@style/TextGreyMedium12"
+        android:id="@+id/tvTotalReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginRight="@dimen/padding_16dp"
+        android:paddingVertical="@dimen/_8sdp"
+        tools:text="@string/pn_receipt_list"
+        app:layout_constraintTop_toBottomOf="@id/constrainInput"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleReceiptList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalReceipt"
+        android:background="@color/pale_grey_two"
+        tools:listitem="@layout/item_menu12_receipt"
+        android:layout_marginBottom="@dimen/padding"/>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

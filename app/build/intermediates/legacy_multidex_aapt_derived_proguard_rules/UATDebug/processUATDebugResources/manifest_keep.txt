@@ -1,0 +1,2 @@
+# Referenced at C:\Users\Hung-Desktop\Downloads\delfi-client-startkit-example-android-main\delfi-client-startkit-example-android-main\app\build\intermediates\merged_manifests\UATDebug\processUATDebugManifest\merged\AndroidManifest.xml:23
+-keep class com.delfi.vn.template.MyApplication { <init>(...); }

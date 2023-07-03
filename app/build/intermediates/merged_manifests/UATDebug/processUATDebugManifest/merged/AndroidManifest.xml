@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delfi.vn.localtemplate"
+    android:versionCode="1"
+    android:versionName="0.0.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.delfi.vn.template.MyApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/arito_app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.delfi.vn.template.ui.splashscreen.SplashScreenActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delfi.vn.template.ui.developing.NextTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.main.submenu.SubMainMenuActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.settings.appid.AppIDSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.settings.printip.PrinterIPSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.settings.ExMainSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.scanqr.ScanQRActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.menu11.input.Menu11InputActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.menu11.detail.Menu11DetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.menu11.review.Menu11ReviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.settings.serverip.ServerIPSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.menu21.Menu21InputActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.menu22.Menu22InputActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.vn.template.ui.settings.printbluetooth.PrinterSettingActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.delfi.vn.template.services.api.NetworkStatusReceiver"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.delfi.vn.localtemplate.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <activity
+            android:name="com.delfi.core.communication.resttransfer.CloudSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.resttransfer.CloudTestConnectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.resttransfer.CloudTransferActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.ftptransfer.FTPSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.ftptransfer.FTPMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.ftptransfer.FTPConnectionTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.ftptransfer.FTPTransferActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.sftp.view.SFTPTransferActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.sftp.view.SFTPConnectionTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.ftps.FTPSTransferActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.delfi.core.communication.ftps.FTPSConnectionTestActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.delfi.vn.localtemplate.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name="com.delfi.core.settings.activities.GeneralInfoActivity" />
+        <activity android:name="com.delfi.core.settings.activities.CommTypeInfoActivity" />
+        <activity android:name="com.delfi.core.settings.activities.ChangeLanguageActivity" />
+        <activity android:name="com.delfi.core.settings.activities.MainSettingActivity" />
+        <activity android:name="com.delfi.core.settings.activities.DelfiPassActivity" />
+        <activity android:name="com.delfi.core.settings.activities.CommSettingActivity" />
+        <activity android:name="com.delfi.core.settings.activities.DataSettingActivity" />
+        <activity android:name="com.delfi.core.settings.activities.KeyboardSettingActivity" />
+        <activity android:name="com.delfi.core.activation.ui.ClientActivationActivity" />
+        <activity android:name="com.delfi.core.activation.ui.OfflineActivationActivity" />
+        <activity android:name="com.delfi.core.zxing.ui.ScanQRActivity" />
+    </application>
+
+</manifest>

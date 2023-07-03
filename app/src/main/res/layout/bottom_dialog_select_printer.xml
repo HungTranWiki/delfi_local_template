@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bottom_dialog"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding">
+
+        <TextView
+            style="@style/Grey_Bold_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn máy in" />
+
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:foreground="?android:selectableItemBackground"
+            app:srcCompat="@drawable/ic_close" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/btnXTPrinter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding"
+        android:background="@color/blue"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_wifi_w_24" />
+
+        <TextView
+            style="@style/White_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_10dp"
+            android:text="Bixolon XT2 Series" />
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/btnXT5Printer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding"
+        android:background="@color/blue"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_wifi_w_24" />
+
+        <TextView
+            style="@style/White_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_10dp"
+            android:text="Bixolon XT5 Series" />
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/btnR310Printer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/padding"
+        android:padding="@dimen/padding_10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_bluetooth_w_24" />
+
+        <TextView
+            style="@style/White_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_10dp"
+            android:text="Bixolon R310" />
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/btnBTPrinter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:foreground="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_bluetooth_w_24" />
+
+        <TextView
+            style="@style/White_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_10dp"
+            android:text="Bixolon L310" />
+    </LinearLayout>
+</LinearLayout>

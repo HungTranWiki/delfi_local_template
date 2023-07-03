@@ -1,0 +1,124 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'key'
+            keyPassword '70222555'
+            storeFile file('../key.jks')
+            storePassword '70222555'
+        }
+    }
+
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.delfi.vn.localtemplate"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "0.0.0.1"
+        buildConfigField "String", "templateVersion", "\"3.1.0\""
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", "$applicationId-v$versionName")
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = ("${defaultConfig.applicationId}-v${defaultConfig.versionName}-release.apk")
+                }
+            }
+        }
+        debug {
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = ("${defaultConfig.applicationId}-v${defaultConfig.versionName}-release.apk")
+                }
+            }
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    flavorDimensions "environment"
+    productFlavors {
+        UAT {
+            buildConfigField "String", "URL_POST_NHAP_KHO", "\"https://prod-12.southeastasia.logic.azure.com:443/workflows/0d48389687e44bb685e72bc96a455802/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=9sXiegTGmYtEIgckYXN4mwNnahCLqx7_h4eEPaPvE3o\""
+            buildConfigField "String", "URL_POST_XUAT_KHO", "\"https://prod-12.southeastasia.logic.azure.com:443/workflows/0d48389687e44bb685e72bc96a455802/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=9sXiegTGmYtEIgckYXN4mwNnahCLqx7_h4eEPaPvE3o\""
+            buildConfigField "String", "URL_POST_KIEM_KE", "\"https://prod-19.southeastasia.logic.azure.com:443/workflows/ba3f6b52f2b845a283868115e5adacdb/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=SwuJW4-q50rfJHTFJz2eBGWE0kXyKcFfxowEJs5jooU\""
+            buildConfigField "String", "PORT_AX_GET", "\":32500/\""
+            buildConfigField "String", "PORT_AX_LOGIN", "\":32440/\""
+            buildConfigField "String", "ENV", "\"DEVTEST\""
+            buildConfigField "String", "GET_PO", "\"/sap/bc/srt/rfc/sap/zmm_po_getitems/300/zmm_po_getitems/zmm_po_getitems\""
+
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+configurations {
+    all {
+        exclude module: 'httpclient'
+        exclude module: 'commons-logging'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'org.jetbrains:annotations:15.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    implementation 'com.google.code.gson:gson:2.8.1'
+    implementation 'com.google.guava:guava:23.0-android'
+    implementation 'com.jakewharton:butterknife:8.7.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation "android.arch.lifecycle:extensions:1.0.0"
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    implementation 'com.google.dagger:dagger:2.24'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.23.2'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.23.2'
+    implementation 'com.google.dagger:dagger-android-support:2.23.2'
+    implementation('com.squareup.retrofit2:converter-simplexml:2.1.0') {
+        exclude group: 'stax', module: 'stax-api'
+        exclude group: 'stax', module: 'stax'
+        exclude group: 'xpp3', module: 'xpp3'
+        exclude group: 'com.squareup.retrofit2', module: 'retrofit'
+    }
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
+    implementation(name: 'com.delfi.core-3.1.0', ext: 'aar')
+    implementation "com.daimajia.swipelayout:library:1.2.0@aar"
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation files('libs/EZioAD.jar')
+    implementation files('libs/BixolonLabelPrinterLibrary.jar')
+    implementation files('libs/libcommon.jar')
+}

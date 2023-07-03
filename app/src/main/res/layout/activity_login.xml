@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llContent"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/logo_white"
+            android:layout_gravity="center"
+            android:contentDescription="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="52dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+        <LinearLayout style="@style/LoginBounderEditText">
+            <ImageView
+                style="@style/LoginIcon"
+                app:srcCompat="@drawable/ic_user_white"/>
+            <View style="@style/LoginHorizontalLine"/>
+            <EditText
+                android:id="@+id/edtUserName"
+                style="@style/LoginEditText"
+                android:inputType="textVisiblePassword"
+                android:hint="@string/user_name" />
+        </LinearLayout>
+        <View style="@style/LoginVerticalLine" />
+        <LinearLayout style="@style/LoginBounderEditText">
+            <ImageView
+                style="@style/LoginIcon"
+                app:srcCompat="@drawable/ic_password"/>
+            <View style="@style/LoginHorizontalLine"/>
+            <EditText
+                android:id="@+id/edtPassword"
+                style="@style/LoginEditText"
+                android:inputType="textPassword"
+                android:hint="@string/password"/>
+
+
+        </LinearLayout>
+        <View style="@style/LoginVerticalLine" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/bg_corner_white"
+            style="@style/ButtonTextBlue16"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:text="@string/login"/>
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_corner_light_blue"
+            style="@style/ButtonTextBlue16"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/setting"/>
+
+        <TextView
+            style="@style/TextWhiteRegular12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/app_release_year"/>
+    </LinearLayout>
+</RelativeLayout>

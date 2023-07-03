@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="false"
+    android:minHeight="?attr/actionBarSize"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/icBack"
+            android:layout_toLeftOf="@+id/icSearch"
+            android:layout_toRightOf="@+id/icBack"
+            android:layout_toStartOf="@+id/icSearch">
+
+            <TextView
+                android:id="@+id/tvMainTitle"
+                style="@style/TextWhiteSemiBold16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/padding_8dp"
+                android:layout_marginRight="@dimen/padding_8dp"
+                android:gravity="left"
+                android:visibility="visible"
+                tools:text="Title" />
+
+            <LinearLayout
+                android:id="@+id/lnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/drawable_edittext_common"
+                android:paddingLeft="@dimen/padding_5dp"
+                android:paddingRight="@dimen/padding_5dp"
+                android:visibility="gone">
+                <com.delfi.vn.template.ui.customview.SimpleEditedText
+                    android:id="@+id/editTextSearch"
+                    style="@style/TextBlackSemiBold14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_5dp"
+                    android:paddingRight="@dimen/padding_5dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bg_header_edt"
+                    android:hint="@string/search"
+                    android:inputType="text"
+                    android:minHeight="@dimen/height_edittext"
+                    android:singleLine="true"/>
+                <ImageView
+                    android:id="@+id/icClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/padding_5dp"
+                    android:layout_marginRight="@dimen/padding_5dp"
+                    android:clickable="true"
+                    android:contentDescription="@null"
+                    android:focusable="true"
+                    android:padding="@dimen/padding_5dp"
+                    android:minHeight="@dimen/height_edittext"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/ic_close" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/icBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:paddingRight="@dimen/padding_small"
+            android:paddingVertical="@dimen/padding_small"
+            android:src="@drawable/ic_arrow_back_white_and_black"
+            />
+
+        <ImageView
+            android:id="@+id/icSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/icList"
+            android:layout_toStartOf="@+id/icList"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:paddingTop="@dimen/padding_8dp"
+            android:paddingBottom="@dimen/padding_8dp"
+            android:paddingLeft="@dimen/padding_8dp"
+            android:paddingRight="@dimen/padding_8dp"
+            android:src="@drawable/ic_search_white_and_black"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/icList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/icCheckSuccess"
+            android:layout_toStartOf="@+id/icCheckSuccess"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:paddingTop="@dimen/padding_8dp"
+            android:paddingBottom="@dimen/padding_8dp"
+            android:paddingLeft="@dimen/padding_8dp"
+            android:paddingRight="@dimen/padding_8dp"
+            android:src="@drawable/ic_list_white_and_black"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/icCheckSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/padding_16dp"
+            android:layout_marginRight="@dimen/padding_16dp"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:paddingTop="@dimen/padding_8dp"
+            android:paddingBottom="@dimen/padding_8dp"
+            android:paddingLeft="@dimen/padding_8dp"
+            android:paddingRight="@dimen/padding_8dp"
+            android:src="@drawable/ic_check_success_white_black"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/icReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/padding_16dp"
+            android:layout_marginRight="@dimen/padding_16dp"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:paddingTop="@dimen/padding_8dp"
+            android:paddingBottom="@dimen/padding_8dp"
+            android:paddingLeft="@dimen/padding_8dp"
+            android:paddingRight="@dimen/padding_8dp"
+            android:src="@android:drawable/ic_menu_rotate"
+            android:visibility="gone" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
